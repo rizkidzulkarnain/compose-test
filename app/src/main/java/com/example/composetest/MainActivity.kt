@@ -32,7 +32,7 @@ fun Greeting(name: String) {
     Text(text = "Hello $name!")
 }
 
-@Preview(backgroundColor = tr)
+@Preview()
 @Composable
 fun DefaultPreview() {
     ComposeTestTheme {
